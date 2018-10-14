@@ -5,7 +5,7 @@
                 —
             </div>
             <div v-else>
-                {{ field.value }}%
+                {{ field.value.toFixed(field.precision) }}%
             </div>
         </template>
     </panel-item>
